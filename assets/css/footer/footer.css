@@ -1,0 +1,26 @@
+/*---------------- Footer -----------------*/
+
+section .footer {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.footer__pie {
+    text-align: center;
+    padding: 20px;
+    background-color: #D7A3DF;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.pie {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    height: 20px;
+}

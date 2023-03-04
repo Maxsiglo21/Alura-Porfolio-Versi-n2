@@ -1,0 +1,17 @@
+#logo {
+    width: 60px;
+    margin: 8px;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
+}

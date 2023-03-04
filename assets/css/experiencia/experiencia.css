@@ -1,0 +1,99 @@
+/* Experiencia Académica*/
+
+section.academic {
+    background-color: #A9DEC3;
+}
+
+section.academic div.courses {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.academic div.courses ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.academic div.courses ul li {
+    padding: 0;
+    margin: 32px;
+}
+
+section.academic div.courses ul li img:nth-child(1) {
+    margin-top: 18px;
+}
+
+section.academic div.courses ul li.course-img {
+    background-color: white;
+}
+
+section.academic div.courses ul li.course-title h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: -25px;
+    text-align: start;
+}
+
+section.academic div.courses ul li.course-subtitle {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
+}
+
+
+/* experiência*/
+
+section.experience {
+    margin-top: 13px;
+}
+
+section.experience div.experiencia-box {
+    margin: 0 32px 64px 32px;
+    justify-content: center;
+}
+
+section.experience div.experiencia-box img {
+    margin-bottom: 16px;
+}
+
+section.experience div.experiencia-box h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+section.experience div.experiencia-box h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px;
+}
+
+section.experience div.experiencia-box div.experience-description {
+    display: flex;
+}
+
+section.experience div.experiencia-box span.experience-repo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    box-sizing: border-box;
+}
+
+section.experience div.experiencia-box span.experience-demo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-left: 16px;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    color: white;
+}
+
+section.experience img {
+    width: 100%;
+}

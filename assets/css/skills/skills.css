@@ -1,0 +1,82 @@
+    /*----------Sección de Skills  y similar formato---------*/
+    
+    .hobbies__title,
+    .skills__title,
+    .title__formulario,
+    .academic__title,
+    .section-title,
+    .experiencia-title,
+    .contact-title {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .contact-subtext {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    
+    .skills__line,
+    .hobbies__line,
+    .academic__courses,
+    .experiencia-box {
+        background-color: beige;
+        border: 1px solid black;
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 5px 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .skills__box,
+    .hobbies__box,
+    .academic__courses__list {
+        display: inline-block;
+        flex-direction: row;
+        justify-content: baseline;
+        font-weight: bold;
+        margin-top: 5px;
+        padding: 5px;
+        text-align: center;
+        list-style: none;
+    }
+    
+    .hobbies__img,
+    .skills__img,
+    img {
+        width: 60px;
+        align-content: normal;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .skills__name,
+    .hobbies__name {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .info-container {
+        font-size: 20px;
+        font-weight: bold;
+        justify-content: center;
+        color: black;
+        width: 60%;
+        margin: 10px;
+    }
+    
+    h2 {
+        margin: 20px;
+        padding: 20px;
+    }

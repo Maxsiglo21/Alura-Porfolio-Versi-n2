@@ -1,0 +1,71 @@
+/*---Estilo de la galería ---*/
+
+body {
+    color: #3a0a0a;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    background-color: #A9DEC3;
+}
+
+.cabecera {
+    background: #D7A3DF;
+    width: 100%;
+    height: 80px;
+    gap: .05rem;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-title {
+    color: #2d2d2d;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0.7em 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.content-image {
+    width: 95%;
+    margin: 2px;
+    border-radius: 1.3rem;
+    -webkit-border-radius: 1.3rem;
+    -moz-border-radius: 1.3rem;
+    -ms-border-radius: 1.3rem;
+    -o-border-radius: 1.3rem;
+}
+
+.gallery {
+    display: grid;
+    gap: 1rem;
+    grid-auto-columns: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+
+.featured {
+    grid-column: span 2;
+}
+
+.card {
+    overflow: hidden;
+    padding: 1rem;
+    background-color: #FCFFDB;
+    border-radius: .03rem;
+    box-shadow: 0 0.2rem 0.3re rgba(0, 0, 0, 4);
+    color: #333;
+    -webkit-border-radius: .03rem;
+    -moz-border-radius: .03rem;
+    -ms-border-radius: .03rem;
+    -o-border-radius: .03rem;
+}
+
+.card_img {
+    display: inline-block;
+    text-align: center;
+}

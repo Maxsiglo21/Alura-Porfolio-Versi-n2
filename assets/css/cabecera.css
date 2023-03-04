@@ -1,0 +1,33 @@
+body {
+    background-color: #A9DEC3;
+}
+
+.cabecera {
+    align-items: center;
+    background: #D7A3DF;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+
+@media screen and (min-width:0) {
+    .cabecera {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .cabecera {
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+}
